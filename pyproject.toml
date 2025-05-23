@@ -1,0 +1,19 @@
+[project]
+name = "omop-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.38.21",
+    "fsspec>=2025.3.2",
+    "gcsfs>=2025.3.2",
+    "google-cloud-bigquery>=3.32.0",
+    "google-cloud-bigquery-datatransfer>=3.19.1",
+    "google-cloud-bigquery-storage>=2.31.0",
+    "google-cloud-storage>=3.1.0",
+    "great-expectations>=1.4.4",
+    "minio>=7.2.15",
+    "pandas>=2.1.4",
+    "pyarrow>=20.0.0",
+]
